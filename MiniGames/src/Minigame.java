@@ -1,6 +1,11 @@
 
+
 public interface Minigame {
 
-	public void play();
+	public void initialise();
+	
+	public void gameOver();
+	
+	public void retry();
 	
 }
